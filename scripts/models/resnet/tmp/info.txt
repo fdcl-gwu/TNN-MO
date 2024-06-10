@@ -1,0 +1,1 @@
+copy res50_coco_512x512-5521bead_20200816.pth here
