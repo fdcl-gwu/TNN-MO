@@ -60,13 +60,29 @@ The TNN-MO model was trained for 350 epochs with the batch size of 48, hyperpara
 
 ## Checkpoints
 
-- 📁 TNN-MO
-  - 📁 checkpoints
-    - 📁 TNN_MO_6-Object_model
-        - 📦 TNN_MO_6-Object_model.pth
-        - 📄 config.ini
-  - 📁 examples
-    - 📁 Test_real
-    - 📁 Test_syn
+```
+📁 TNN-MO/
+  ├── 📁 checkpoints/
+    ├── 📁 TNN_MO_6-Object_model/
+      ├── 📦 TNN_MO_6-Object_model.pth
+  	  └── 📄 config.ini
+  └── 📁 examples/
+  	├── 📁 Test_real
+  	└── 📁 Test_syn
+```
 
+## Acknowledgement
+Our code is based on [DETR](https://github.com/facebookresearch/detr). Thanks for their wonderful works.
 
+## Citation
+
+If you use TNN-MO in your research or wish to refer to the baseline results published here, please use the following BibTeX entry.
+
+```BibTeX
+@article{wickramasuriya2024deep,
+  title={Deep Transformer Network for Monocular Pose Estimation of Ship-Based UAV},
+  author={Maneesha Wickramasuriya and Taeyoung Lee and Murray Snyder},
+  journal={arXiv preprint arXiv:2406.09260},
+  year={2024}
+}
+```
